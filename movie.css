@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: rgb(90, 1, 90);
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+header{
+
+    background-color: rgb(82, 4, 82);
+    padding: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+header input{
+    padding: 0.5rem;
+    border-color: transparent;
+    border: 2px solid rgb(90, 1, 90);
+    border-radius: 50px;
+}
+header input::placeholder{
+color: gray;
+}
+.movie .overview{
+    background-color: white;
+    padding: 2rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: translateX(102%);
+    transition: transform 0.2s ease-in;
+}
+.movie:hover .overview{
+    transform:translateX(0);
+}
+
+.movie{
+   
+    width: 200px;
+    border-radius: 3px;  
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    margin: 2rem;
+    display: inline-block;
+   overflow: hidden;
+   position: relative;
+}
+.movie img{
+max-width: 100%;
+}
+.movie-info{
+color:white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0.5rem 1rem 1rem;
+letter-spacing: 1px;
+
+}
+.movie-info h3{
+    margin: 0;
+
+}
+.movie-info span{
+    background-color:rgb(38, 0, 38);
+    border-radius: 3px;
+}
+.orange{
+color: orange;
+}
+.red{
+color: red;
+}
+.green{
+color: rgb(17, 207, 17);
+}
