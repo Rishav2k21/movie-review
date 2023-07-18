@@ -1,6 +1,6 @@
 # Movies Website 🎥🌟
-![GitHub](https://img.shields.io/github/license/Rishav2k21/)
-![GitHub repo size](https://img.shields.io/github/repo-size/Rishav2k21/movie-review-ruby.vercel.app/)
+![GitHub](https://img.shields.io/github/license/your-username/movies-website)
+![GitHub repo size](https://img.shields.io/github/repo-size/your-username/movies-website)
 
 ## Introduction
 
