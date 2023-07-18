@@ -1,7 +1,7 @@
 # Movies Website 🎥🌟
 
 ![GitHub](https://movie-review-ruby.vercel.app/)
-![GitHub repo size](https://img.shields.io/github/repo-size/Rishav2k21/movies-website)
+![GitHub repo size](https://github.com/Rishav2k21/movie-review.git)
 
 ## Introduction
 
